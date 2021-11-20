@@ -18,7 +18,7 @@ The PyTorch implementation **(non-official)** of paper [Enhancing the Transferab
 
 ### Prepare the data and models
 
-You should collect your PyTorch models and place them in `./checkpoints.    
+You should collect your PyTorch models and place them in `./checkpoints`.    
 
 Clean ImageNet images have already been placed in `./data`. 
 
@@ -43,6 +43,10 @@ CUDA_VISIBLE_DEVICES=gpuid python compare.py
 ## Acknowledgments
 
 Code refers to [VT](https://github.com/JHL-HUST/VT).
+
+## References
+
+Wang X, He K. Enhancing the Transferability of Adversarial Attacks through Variance Tuning[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2021: 1924-1933.
 
 ## TODO
 
